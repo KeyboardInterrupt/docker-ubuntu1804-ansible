@@ -6,6 +6,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
        software-properties-common \
        python-setuptools \
+       python-apt \
        python-pip \
        rsyslog systemd systemd-cron sudo \
     && rm -Rf /var/lib/apt/lists/* \
